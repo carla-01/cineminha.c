@@ -483,7 +483,6 @@ int main(){
             printf("\033[1;31mOpção inválida. Tente novamente.\033[0m\n");
         }
     }
-    //while do do while
     while(escolha != 0);
         printf("\033[1;31mSaindo do Cineminha...\033[0m\n");
 
