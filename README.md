@@ -62,5 +62,3 @@ Este módulo é responsável pelo gerenciamento de memória em um sistema de res
 
     Projetado para trabalhar com arquivos CSV
 
-Autor
-[Adrielly Carla, Pedro Henrique Sales, Pedro Bryan, Renata Dias]
