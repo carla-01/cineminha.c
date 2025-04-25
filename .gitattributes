@@ -1,4 +1,10 @@
+# Forçar detecção correta
 *.c linguagem=C
-*.h linguagem=C
-Makefile linguagem=Makefile
-* -linguagem  # Ignora todos os outros arquivos
+*.js linguagem=JavaScript
+*.py linguagem=Python
+*.java linguagem=Java
+
+# Ignorar arquivos não-código
+*.md -linguagem
+*.json -linguagem
+*.yml -linguagem
