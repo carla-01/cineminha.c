@@ -1,14 +1,10 @@
-# Forçar detecção de C
+# Forçar detecção correta
 *.c linguagem=C
-*.h linguagem=C
+*.js linguagem=JavaScript
+*.py linguagem=Python
+*.java linguagem=Java
 
 # Ignorar arquivos não-código
-*.md linguagem=Markdown
+*.md -linguagem
 *.json -linguagem
 *.yml -linguagem
-*.txt -linguagem
-*.xml -linguagem
-
-# Configurações de formatação (opcional)
-*.c text eol=lf
-*.h text eol=lf
